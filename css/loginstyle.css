@@ -1,0 +1,156 @@
+{
+   margin:0;
+   padding:0;
+}
+/*define the html page height is 100%，width:100%*/
+html
+{
+   height:100%;
+}
+ 
+body
+{
+   height:100%;
+}
+
+/*define the header positiono and height 100px*/
+#header 
+{
+	position:absolute;
+    background-color:black;
+	height:100px;
+	width:100%;
+}
+
+/*define logo*/
+#header #logo
+{
+	float:left;
+	height:100px;
+	width:163px;
+}
+/*Define the welcome title div css*/
+#header #title 
+{
+	float:left;
+    height:60px;
+	line-height:60px;
+	font-size:32px;
+	font-weight:bold;
+	border-right:1px solid white;
+	padding-right:12px;
+	margin-top:20px;
+	color:white;
+}
+/*Define the login form css*/
+#loginform 
+{
+	position:absolute;
+    top: 100px; 
+	bottom:30px;
+	width:100%; 
+	height:auto;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: auto;
+}
+/*Define the signinform css*/
+#loginform #signinform {
+  position:absolute;
+  bottom:5px;
+  text-align: center;
+  float:left;
+  padding: 16px;
+  background-color: wheat;
+  margin: auto;
+  margin-right: auto;
+  width: 600px;
+  margin-left: -300px;
+  margin-top: -80px;
+  top: 20%;
+  left: 50%;
+  display: block;
+}
+/*Define the p element css*/
+.p {
+    color: black;
+  font-size:10px;
+  /* This is a single-line comment */
+  text-align: center;
+} 
+/*Define the class inputW css*/
+.inputW{
+	width:150px;
+	height:20px; 
+	line-height:20px;}
+/*Define submit css*/
+.submit {
+ background-color: black; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*Define the footer css*/
+#footer 
+{
+	position: absolute;  
+    background-color:black;
+    color:white;
+    text-align:center;	 
+    height:30px;
+	width:100%;
+    bottom: 0px;
+}
+/*Define the content in tool*/
+#tool a {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
+    margin: 2px;
+	padding:8px 24px 8px 24px;
+}
+#header #menu 
+{
+	float:left;
+    height:100px;
+	line-height: 100px;
+	margin-left:20px;
+    
+}
+/*define hypelink in menu css */
+#menu a
+{
+    border: none;
+    color: white;
+    text-align: center;
+	height: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 24px;
+	margin-left:20px;
+}
+/*define the hyperlink changes when mouses move on
+*/
+#menu a:hover {text-decoration:underline;color:red;}
+
+
+/*Define the content in tool*/
+#header #tool
+{
+	float:right;
+	height:100px;
+	text-align:right;
+	line-height: 100px;
+}
+

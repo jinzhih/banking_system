@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/loginstyle.css"> 
+	<script src="jquery-3.1.1.min.js">
+	</script>
+
+</head>
+
+<body>
+<!-- Create the header of html page-->
+<div id="header">
+	<div id="logo">
+		<img src="images/logo1.png" alt="logo">
+    </div>
+	
+	<div id="title">Manager Logon</div>
+	
+	<div id="menu">
+       <a href="index.html" id="xx3" >Homepage</a>  <a href="#" id="xx2" >About us</a>
+	</div> 
+	
+	<div id="tool">
+		<a href="managerlogin.html" id="loginbutton" >Manager Logon</a>
+	</div>
+</div>
+<!-- Create the loginform for manager profile, only adiministration can create accouont-->
+<div id="loginform">
+	
+		<form id="signinform" name="signinform" method="Post" action="after_mansign_in.php" onsubmit="validate()">
+	
+			<p>
+				<label for="username">Username:</label>
+				<input  class="inputW" type="text" id="username" name="username">
+			</p>
+			
+			<p>
+				<label for="password">Password:</label>
+				<input  class="inputW" type="password" id="password"  name="password"/>
+			</p>
+		
+		    <P>
+				<input class="submit" type="submit" value="submit"/>
+			</P>
+			<P>If you forget your username or password,please contact the administrator!
+            </P>
+	
+	</form>
+
+	<!-- loginform validation-->
+	<script>
+			function validate(){
+				
+				if($("#username").val()==""){
+					alert("Username is required.");
+				}else if($("#password").val()==""){
+					alert("Password is required.");
+				}
+			}
+	</script>
+	
+	
+	
+</div>
+<!-- Create the footer-->
+<div id="footer">Copyright@Secure Bank.com</div>
+
+
+
+</body>
+</html>

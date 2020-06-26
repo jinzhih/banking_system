@@ -1,0 +1,171 @@
+
+{
+   margin:0;
+   padding:0;
+}
+/*Define the whole page height is 100%*/
+
+html
+{
+   height:100%;
+}
+ 
+body
+{
+   height:100%;
+}
+
+/*Define the head position is absolute and height is100px*/
+#header 
+{
+	position:absolute;
+    background-color:black;
+	height:100px;
+	width:100%;
+}
+
+/*Define logo*/
+#header #logo
+{
+	float:left;
+	height:100px;
+	width:163px;
+}
+/*Define the welcome title div css*/
+#header #title 
+{
+	float:left;
+    height:60px;
+	line-height:60px;
+	font-size:24px;
+	font-weight:bold;
+	border-right:1px solid white;
+	padding-right:12px;
+	margin-top:20px;
+	color:white;
+}
+
+/*define menue div */
+
+#header #menu 
+{
+	float:left;
+    height:100px;
+	line-height: 100px;
+	margin-left:20px;
+    
+}
+/*Define the hypelink of the menu  */
+#menu a
+{
+    border: none;
+    color: white;
+    text-align: center;
+	height: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left:20px;
+}
+/*define the hyperlink changes when mouses move on
+*/
+#menu a:hover {text-decoration:underline;color:red;}
+
+/*Define  tool DIV*/
+
+#header #tool
+{
+	float:right;
+	height:100px;
+	text-align:right;
+	line-height: 100px;
+}
+
+/*Define the content in tool*/
+#tool a {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
+    margin: 2px;
+	padding:8px 24px 8px 24px;
+}
+
+/*Define payeeform css*/
+#payeeform 
+{
+	position:absolute;
+    top: 100px; 
+	bottom:30px;
+	width:100%; 
+	height:auto;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: auto;
+}
+/*Define the payform css*/
+#payeeform #payform {
+  position:absolute;
+  top: 5px; 
+  bottom:5px;
+ 
+  text-align: left;
+  float:left;
+  padding: 16px;
+  background-color: wheat;
+  width:50%; 
+  
+  margin-left:500px;
+  margin-right: auto;
+}
+/*Define the class boldhead css in p element*/
+p.boldhead {
+  color: black;
+  font-size:20px;
+  font-weight: bold;
+  
+ 
+} 
+/*Define the class inputW css*/
+.inputW{
+	width:150px;
+	height:20px; 
+	line-height:20px;}
+/*Define the class inputB css*/
+.inputB{
+	width:15px;
+	height:20px; 
+	}
+/*Define the submit css*/
+.submit {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 100px;
+}
+
+/*Define the footer form css*/
+
+#footer 
+{
+	position: absolute;  
+    background-color:black;
+    color:white;
+    text-align:center;	 
+    height:30px;
+	width:100%;
+    bottom: 0px;
+}
+

@@ -1,0 +1,156 @@
+{
+   margin:0;
+   padding:0;
+}
+/*一般情况下，要设置父容器的高度为100%，以使整体的布局撑满整个页面 默认width:100%*/
+html
+{
+   height:100%;
+}
+ 
+body
+{
+   height:100%;
+}
+
+/*设定固定的头高度为100px*/
+#header 
+{
+	position:absolute;
+    background-color:black;
+	height:100px;
+	width:100%;
+}
+
+/*定义logo*/
+#header #logo
+{
+	float:left;
+	height:100px;
+	width:163px;
+}
+/*定义欢迎语句DIV，由于想在最右边弄出一个白色竖线出来，
+且不想高度撑满整个header,因此高度设置成了60，
+这样，通过margin-top=20px,就能让这个DIV居中显示
+同时，通过padding-right控制里边的内容和右边框的距离*/
+#header #title 
+{
+	float:left;
+    height:60px;
+	line-height:60px;
+	font-size:32px;
+	font-weight:bold;
+	border-right:1px solid white;
+	padding-right:12px;
+	margin-top:20px;
+	color:white;
+}
+
+#loginform 
+{
+	position:absolute;
+    top: 100px; 
+	bottom:30px;
+	width:100%; 
+	height:auto;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: auto;
+}
+#loginform #signinform {
+  position:absolute;
+  top: 5px; 
+  bottom:5px;
+
+  text-align: center;
+  float:left;
+  padding: 16px;
+  background-color: wheat;
+  width:50%; 
+
+  margin-left:450px;
+  margin-right: auto;
+  font-size:24px;
+}
+.p {
+    color: black;
+  font-size:10px;
+  /* This is a single-line comment */
+  text-align: center;
+} 
+.inputW{
+	width:150px;/*设定宽度*/
+	height:20px;/*设置高度*/ 
+	line-height:20px;}
+
+.submit {
+ background-color: black; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+#footer 
+{
+	position: absolute;  
+    background-color:black;
+    color:white;
+    text-align:center;	 
+    height:30px;
+	width:100%;
+    bottom: 0px;
+}
+#tool a {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
+    margin: 2px;
+	padding:8px 24px 8px 24px;
+}
+#header #menu 
+{
+	float:left;
+    height:100px;
+	line-height: 100px;
+	margin-left:20px;
+    
+}
+/*定义菜单DIV 里边的超链接的样式表，
+使用名称+空格+a的方式定义了这个DIV里边所有的超链接的样式，
+不需要把每个超链接都弄个ID，然后用ID的方式去定义样式 */
+#menu a
+{
+    border: none;
+    color: white;
+    text-align: center;
+	height: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 24px;
+	margin-left:20px;
+}
+/*定义超链接鼠标放上去时的样式
+主要是为了让鼠标放上去之后，超链接会有些变化
+*/
+#menu a:hover {text-decoration:underline;color:red;}
+
+
+/*定义最右侧 tool DIV*/
+#header #tool
+{
+	float:right;
+	height:100px;
+	text-align:right;
+	line-height: 100px;
+}
+

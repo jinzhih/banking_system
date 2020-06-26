@@ -1,0 +1,293 @@
+
+
+{
+    margin:0;
+    padding:0;
+ }
+ 
+ html
+ {
+    height:100%;
+ }
+  
+ body
+ {
+    height:100%;
+ }
+ 
+ 
+ #header 
+ {
+     position:absolute;
+     background-color:black;
+     height:100px;
+     width:100%;
+ }
+ 
+ 
+ #header #logo
+ {
+     float:left;
+     height:100px;
+     width:163px;
+ }
+ 
+ #header #title 
+ {
+     float:left;
+     height:60px;
+     line-height:60px;
+     font-size:32px;
+     font-weight:bold;
+     border-right:1px solid white;
+     padding-right:12px;
+     margin-top:20px;
+     color:white;
+ }
+ 
+ 
+ 
+ #header #menu 
+ {
+     float:left;
+     height:100px;
+     line-height: 100px;
+     margin-left:20px;
+     
+ }
+ 
+ #menu a
+ {
+     border: none;
+     color: white;
+     text-align: center;
+     height: 20px;
+     text-decoration: none;
+     cursor: pointer;
+     font-size: 18px;
+     margin-left:20px;
+ }
+ 
+ #menu a:hover {text-decoration:underline;color:red;}
+ 
+ 
+ 
+ #header #tool
+ {
+     float:right;
+     height:100px;
+     text-align:right;
+     line-height: 100px;
+ }
+ 
+ 
+ #tool a {
+     background-color: red;
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     border-radius: 8px;
+     font-size: 16px;
+     margin: 2px;
+     padding:8px 24px 8px 24px;
+ }
+ #tool1 a {
+    background-color: darkgrey;
+    border: 1px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 2px;
+
+}
+button{
+    background-color: darkgrey;
+    border: 1px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 2px;  
+}
+ 
+ #section
+ {
+     /*position:absolute;
+     top: 200px; 
+     bottom:30px;
+     width:100%; 
+     height:auto;
+     margin-left: 250px;
+     background-color: wheat;*/
+     position:absolute;
+     top: 100px; 
+     bottom:30px;
+     width:100%; 
+     height:auto;
+     background-color: wheat;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     margin: auto;
+     overflow: scroll;
+
+ 
+ }
+
+ #submit
+ {
+   
+    background-color: grey;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-border-radius: 5px;
+	border: none;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #949494;
+	margin-left:8px;
+	width:200px;
+	height:30px;
+ }
+ 
+ #submit:hover
+ {
+    background-color: black;
+ }
+ 
+ #section #savingaccount {
+     margin-top: 200px;
+     border: solid black;
+     margin:10px;
+     width: 380px;
+     height: 200px;
+     border-width: 3px;
+     border-radius: 25px;
+     text-align: center;
+     float: left;
+     cursor:pointer;
+     margin-left:200px;
+    
+ 
+ }
+ #section #businessaccount {
+     margin-top: 200px;
+     border: solid black;
+     margin:10px;
+     width: 380px;
+     height: 200px;
+     border-width: 3px;
+     border-radius: 25px;
+     text-align: center;
+     float: left;
+     cursor:pointer;
+     margin-left: 200px;
+ }
+
+#accounts1
+{
+	text-align:left;
+	margin:0 auto;
+}
+
+ #footer
+ {
+     position: absolute;  
+     background-color:black;
+     color:white;
+     text-align:center;	 
+     height:30px;
+     width:100%;
+     bottom: 0px;
+ }
+ #accounts {
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   #accounts td, #customers th {
+     border: 1px solid #ddd;
+     padding: 8px;
+   }
+   
+   #accounts tr:nth-child(even){background-color: #f2f2f2;}
+   
+   #accounts tr:hover {background-color: #ddd;}
+   
+   #accounts th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: dimgrey;
+     color: white;}
+     .dropbtn {
+        background-color: wheat;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color:grey;
+    }
+    #myform
+    {
+       float: left;
+        text-align:center;
+      
+       width: 30%;
+       height: 40%;
+    }
+   
+    #myform2{
+        text-align: center;
+        float: left;
+        margin-right: 100px;
+        width: 40%;
+    }
+	 #myform3{
+        float: left;
+      
+     }
+     #myform4{
+      
+        text-align:center;
+      
+    }
+    h2{
+        text-align: center;
+    }

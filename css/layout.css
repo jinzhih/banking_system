@@ -1,0 +1,177 @@
+
+
+{
+   margin:0;
+   padding:0;
+}
+/*define the whole page height 100%，width:100%*/
+html
+{
+   height:100%;
+}
+ 
+body
+{
+   height:100%;
+}
+
+/*define the header position and height is 100px*/
+#header 
+{
+	position:absolute;
+    background-color:black;
+	height:100px;
+	width:100%;
+}
+
+/*define logo*/
+#header #logo
+{
+	float:left;
+    height:100px;
+	width:163px;
+}
+/*定义欢迎语句DIV，由于想在最右边弄出一个白色竖线出来，
+且不想高度撑满整个header,因此高度设置成了60，
+这样，通过margin-top=20px,就能让这个DIV居中显示
+同时，通过padding-right控制里边的内容和右边框的距离*/
+#header #title 
+{
+	float:left;
+    height:60px;
+	line-height:60px;
+	font-size:32px;
+	font-weight:bold;
+	border-right:1px solid white;
+	padding-right:12px;
+	margin-top:20px;
+	color:white;
+}
+
+
+/*定义菜单DIV */
+#header #menu 
+{
+	float:left;
+    height:100px;
+	line-height: 100px;
+	margin-left:20px;
+    
+}
+/*定义菜单DIV 里边的超链接的样式表，
+使用名称+空格+a的方式定义了这个DIV里边所有的超链接的样式，
+不需要把每个超链接都弄个ID，然后用ID的方式去定义样式 */
+#menu a
+{
+    border: none;
+    color: white;
+    text-align: center;
+	height: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 24px;
+	margin-left:20px;
+}
+/*定义超链接鼠标放上去时的样式
+主要是为了让鼠标放上去之后，超链接会有些变化
+*/
+#menu a:hover {text-decoration:underline;color:red;}
+
+
+/*定义最右侧 tool DIV*/
+#header #tool
+{
+	float:right;
+	height:100px;
+	text-align:right;
+	line-height: 100px;
+}
+
+/* 对于同一类的样式，使用类定义，不用重复定义 border-radius: 8px;是圆角程度*/
+/*
+loginbutton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	float: left;
+	width: 40px;
+	height: 10px;
+	
+}
+
+#registerbutton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	float: left;
+	width: 40px;
+	height: 10px;
+	
+}
+*/
+#tool a {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
+    margin: 2px;
+	padding:8px 24px 8px 24px;
+}
+
+/*define middle part */
+
+#section 
+{
+	position:absolute;
+    top: 100px; 
+	bottom:30px;
+	width:100%; 
+	height:auto;
+    background-image: url(../images/mainpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: auto;
+}
+
+#section #introduce
+{
+	position:absolute;
+    top:300px; 
+	
+   
+	font-size:30px;
+	color: black;
+}
+/*define FOOTER DIV */
+#footer 
+{
+	position: absolute;  
+    background-color:black;
+    color:white;
+    text-align:center;	 
+    height:30px;
+	width:100%;
+    bottom: 0px;
+}
+
+/*
+ 
+*/

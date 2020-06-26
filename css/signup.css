@@ -1,0 +1,139 @@
+{
+   margin:0;
+   padding:0;
+}
+/**/
+html
+{
+   height:100%;
+}
+ 
+body
+{
+   height:100%;
+}
+
+/**/
+#header 
+{
+	position:absolute;
+    background-color:black;
+	height:100px;
+	width:100%;
+}
+
+/**/
+#header #logo
+{
+	float:left;
+    height:100px;
+	width:163px;
+}
+/**/
+#header #title 
+{
+	float:left;
+    height:60px;
+	line-height:60px;
+	font-size:32px;
+	font-weight:bold;
+	border-right:1px solid white;
+	padding-right:12px;
+	margin-top:20px;
+	color:white;
+}
+
+
+/*定义菜单DIV */
+#header #menu 
+{
+	float:left;
+    height:100px;
+	line-height: 100px;
+	margin-left:20px;
+    
+}
+/*定义菜单DIV 里边的超链接的样式表，
+使用名称+空格+a的方式定义了这个DIV里边所有的超链接的样式，
+不需要把每个超链接都弄个ID，然后用ID的方式去定义样式 */
+#menu a
+{
+    border: none;
+    color: white;
+    text-align: center;
+	height: 20px;
+    text-decoration: none;
+	cursor: pointer;
+	font-size: 24px;
+	margin-left:20px;
+}
+/*
+*/
+#menu a:hover {text-decoration:underline;color:red;}
+
+
+/*定*/
+#header #tool
+{
+	float:right;
+	height:100px;
+	text-align:right;
+	line-height: 100px;
+}
+
+/* */
+
+#tool a {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 16px;
+    margin: 2px;
+	padding:8px 24px 8px 24px;
+}
+
+/**/
+
+#section 
+{
+	position:absolute;
+    top: 100px; 
+	bottom:30px;
+	width:100%; 
+	height:auto;
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: auto;
+    font-size:24px;
+    text-align: center;
+}
+
+#section #introduce
+{
+	position:absolute;
+    top:300px; 
+	
+   
+	font-size:30px;
+	color: black;
+}
+/* */
+#footer 
+{
+	position: absolute;  
+    background-color:black;
+    color:white;
+    text-align:center;	 
+    height:30px;
+	width:100%;
+    bottom: 0px;
+}
+
+/*
+ 
+*/
